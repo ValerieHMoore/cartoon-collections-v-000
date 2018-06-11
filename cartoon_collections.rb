@@ -5,10 +5,8 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(veggies)
-  veggies.split(' ').map {|w| w.capitalize}.join(' ')
-    end
-    veggies
-  end
+  words = veggies.split(" ")
+    words.map { |w| w.capitalize}.join(" ")
 end
 
 def long_planeteer_calls# code an argument here
