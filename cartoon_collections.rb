@@ -5,7 +5,9 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(veggies)
-  veggies.split(' ').map {|w| w.capitalize + "!" }
+  veggies.split(' ').map {|w| w.capitalize + "!" }.join(' ')
+    end
+    veggies
   end
 end
 
