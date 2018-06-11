@@ -8,6 +8,7 @@ def summon_captain_planet(veggies)
   veggies.split(' ').map {|w| w.capitalize + "!" }.join(' ')
     end
     veggies
+  end
 end
 
 def long_planeteer_calls# code an argument here
